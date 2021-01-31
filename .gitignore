@@ -1,0 +1,14 @@
+# Default ignored files
+/.idea/
+/__pycache__/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Environments
+.env
+.venv
+env/
+venv/
+

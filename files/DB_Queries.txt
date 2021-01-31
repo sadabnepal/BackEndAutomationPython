@@ -1,0 +1,19 @@
+CREATE DATABASE PythonAutomation;
+USE PythonAutomation;
+CREATE TABLE CustomerInfo (CourseName varchar(50), PurchaseDate date, Amount int, Location varchar(50));
+INSERT INTO CustomerInfo VALUES("Selenium", current_date(), 1500, "Nepal");
+INSERT INTO CustomerInfo VALUES("WebDriverIO", current_date(), 2500, "India");
+INSERT INTO CustomerInfo VALUES("Python", current_date(), 3500, "New York");
+INSERT INTO CustomerInfo VALUES("TypeScript", current_date(), 500, "Jaynagar");
+SELECT * FROM CustomerInfo;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE CustomerInfo SET Location = 'Melbourn' WHERE CourseName = "Python";
+DELETE from CustomerInfo WHERE CourseName = "TypeScript" AND Location = "Jaynagar";
+SELECT * FROM CustomerInfo;
+
+CREATE TABLE Books(Bookname varchar(50), isbn varchar(50), aisle varchar(50), author varchar(50));
+INSERT INTO Books VALUES("Java", "javaisbn", "125", "Java Author");
+INSERT INTO Books VALUES("Selenium", "seleniumisbn", "135", "Selenium Author");
+INSERT INTO Books VALUES("Jemeter", "Jmeterisbn", "155", "Jmeter Author");
+SELECT * FROM Books;

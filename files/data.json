@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 12.28,
+    "lat": 46.74
+  },
+  "weather": [
+    {
+      "id": 701,
+      "main": "Mist",
+      "description": "mist",
+      "icon": "50d"
+    },
+    {
+      "id": 702,
+      "main": "Normal",
+      "description": "Normal",
+      "icon": "60d"
+    },
+    {
+      "id": 703,
+      "main": "Critical",
+      "description": "Critical",
+      "icon": "70d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 276.06,
+    "feels_like": 272.8,
+    "temp_min": 275.93,
+    "temp_max": 276.15,
+    "pressure": 1015,
+    "humidity": 93
+  },
+  "visibility": 2000,
+  "wind": {
+    "speed": 2.24,
+    "deg": 9
+  },
+  "clouds": {
+    "all": 90
+  }
+}
